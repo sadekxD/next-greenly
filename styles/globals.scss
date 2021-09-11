@@ -5,17 +5,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.nav-link {
-	.nav-active {
-		&::after {
-			@apply bg-green-700;
-			content: "";
-			height: 2px;
-			width: 100%;
-			position: absolute;
-			bottom: 0;
-			right: 0;
-			left: 0;
-		}
-	}
+.nav-active {
+  position: relative;
+  &::after {
+    @apply bg-green-700;
+    content: "";
+    height: 2px;
+    width: 100%;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+    left: 0;
+  }
 }

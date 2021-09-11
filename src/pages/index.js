@@ -29,12 +29,12 @@ export default function Home() {
 							Your Eco-Friendly Lawn & Garden Specialists
 						</p>
 						<div className="mt-10">
-							<Link href="/book">
+							<Link href="/pricing">
 								<a className="px-6 rounded-md bg-green-700 hover:bg-gray-800 text-white font-medium py-3 ">
 									Our Pricing
 								</a>
 							</Link>
-							<Link href="/book">
+							<Link href="/pricing">
 								<a className="px-6 ml-4 rounded-md bg-gray-100 hover:bg-gray-300 text-black font-medium py-3 ">
 									Book now
 								</a>
